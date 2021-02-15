@@ -5,7 +5,7 @@ body {
   font-weight: 200;
   margin: auto;
   text-align: center;
-  
+  background-color: #ecfbf0;
 }
 
 @media screen and (max-width: 375px) {
@@ -42,6 +42,13 @@ body {
   padding: 5%;
   text-align: left;
   max-width: 90%;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.block:hover {
+  transform: translateY(10px);
+  background-color: #f8fdfa;
 }
 
 .container > div:nth-of-type(1) {
@@ -51,7 +58,7 @@ body {
 
 .container > div:nth-of-type(1)::after{
   content: url(./images/icon-supervisor.svg);
-  position: static;
+  position: relative;
   float: right;
   bottom: 10px;
 }
@@ -63,7 +70,7 @@ body {
 
 .container > div:nth-of-type(2)::after{
   content: url(./images/icon-team-builder.svg);
-  position: static;
+  position: relative;
   float: right;
   bottom: 10px;
 }
@@ -75,7 +82,7 @@ body {
 
 .container > div:nth-of-type(3)::after{
   content: url(./images/icon-karma.svg);
-  position: static;
+  position: relative;
   float: right;
   bottom: 10px;
 }
@@ -87,7 +94,7 @@ body {
 
 .container > div:nth-of-type(4)::after{
   content: url(./images/icon-calculator.svg);
-  position: static;
+  position: relative;
   float: right;
   bottom: 10px;
 }
